@@ -3,9 +3,10 @@
   "bin": {
     "uct": "./bin/uct-cli"
   },
-  "version": "0.0.1",
+  "preferGlobal": true,
+  "version": "0.0.2",
   "description": "uct-cli",
-  "main": "index.js",
+  "keywords": ["uctoo"],
   "scripts": {
     "lerna": "lerna publish"
   },
