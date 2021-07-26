@@ -7,7 +7,7 @@
   "description": "uct-cli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lerna": "lerna publish"
   },
   "author": "huoling",
   "license": "MIT",
