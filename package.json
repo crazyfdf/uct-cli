@@ -9,6 +9,10 @@
   "scripts": {
     "lerna": "lerna publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazyfdf/uct-cli.git"
+  },
   "author": "huoling",
   "license": "MIT",
   "dependencies": {
