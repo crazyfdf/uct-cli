@@ -16,7 +16,11 @@
   "author": "huoling",
   "license": "MIT",
   "dependencies": {
-    "commander": "^8.0.0"
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
