@@ -1,0 +1,20 @@
+{
+  "name": "uct-cli",
+  "bin": {
+    "uct": "./bin/uct-cli"
+  },
+  "version": "1.0.0",
+  "description": "uct-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huoling",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.0.0"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
