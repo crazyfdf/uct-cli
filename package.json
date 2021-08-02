@@ -10,7 +10,8 @@
     "uctoo"
   ],
   "scripts": {
-    "lerna": "lerna publish"
+    "lerna": "lerna publish",
+    "plop": "plop"
   },
   "repository": {
     "type": "git",
