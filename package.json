@@ -1,7 +1,8 @@
 {
   "name": "uct-cli",
   "bin": {
-    "uct": "./bin/uct-cli"
+    "uct": "./bin/uct-cli",
+    "uct-plop": "./bin/plop"
   },
   "preferGlobal": true,
   "version": "0.0.53",
