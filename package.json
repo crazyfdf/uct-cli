@@ -4,14 +4,13 @@
     "uct": "./bin/uct-cli"
   },
   "preferGlobal": true,
-  "version": "0.0.5",
+  "version": "0.0.51",
   "description": "uct-cli",
   "keywords": [
     "uctoo"
   ],
   "scripts": {
-    "lerna": "lerna publish",
-    "plop": "plop"
+    "lerna": "lerna publish"
   },
   "repository": {
     "type": "git",
