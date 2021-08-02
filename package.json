@@ -23,10 +23,10 @@
     "commander": "^8.0.0",
     "download-git-repo": "^3.0.2",
     "inquirer": "^8.1.2",
-    "ora": "^5.4.1"
+    "ora": "^5.4.1",
+    "plop": "^2.7.4"
   },
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "plop": "^2.7.4"
+    "lerna": "^4.0.0"
   }
 }
