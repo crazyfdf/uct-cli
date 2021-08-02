@@ -4,9 +4,11 @@
     "uct": "./bin/uct-cli"
   },
   "preferGlobal": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "uct-cli",
-  "keywords": ["uctoo"],
+  "keywords": [
+    "uctoo"
+  ],
   "scripts": {
     "lerna": "lerna publish"
   },
@@ -24,6 +26,7 @@
     "ora": "^5.4.1"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "plop": "^2.7.4"
   }
 }
