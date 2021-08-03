@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
 const { Command } = require('commander');
-const { Plop, run } = require('plop');
-const path = require('path');
 const program = new Command();
 program.version(require('../package').version);
 
@@ -10,5 +8,4 @@ program.version(require('../package').version);
 program.command('init [targetDir...]').description('初始化').action(require('../lib/init'));
 program.command('created [name]').description('新建uct项目').action(require('../lib/created'));
 program.command('run [type]').description('运行项目').action(require('../lib/run'));
-program.command('plop [config...]').description('plop命令').action(require('../lib/plop'));
 program.parse(process.argv);

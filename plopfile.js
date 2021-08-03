@@ -111,16 +111,16 @@ module.exports = plop => {
 			const list = [
 				{
 					type: 'add',
-					path: `${path}page/{{type}}/{{name}}.vue`,
+					path: `${path}pages/{{type}}/{{name}}.vue`,
 					force: true,
 					templateFile: 'plop-templates/page/{{type}}.vue.hbs',
 				},
-				// {
-				// 	type: 'add',
-				// 	path: `${path}page/{{type}}/{{name}}.json`,
-				// 	force: true,
-				// 	templateFile: 'plop-templates/page/{{type}}.json.hbs',
-				// },
+				{
+					type: 'add',
+					path: `${path}pages/{{type}}/{{name}}.json`,
+					force: true,
+					templateFile: 'plop-templates/page/{{type}}.json.hbs',
+				},
 				{
 					type: 'modify',
 					path: `${path}pages.json`,

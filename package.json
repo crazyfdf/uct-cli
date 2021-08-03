@@ -1,11 +1,11 @@
 {
   "name": "uct-cli",
   "bin": {
-    "uct": "./bin/uct-cli",
-    "uct-plop": "./bin/plop"
+    "uct": "./bin/uct",
+    "uct-plop": "./bin/uct-plop"
   },
   "preferGlobal": true,
-  "version": "0.0.54",
+  "version": "0.0.55",
   "description": "uct-cli",
   "keywords": [
     "uctoo"
