@@ -6,6 +6,6 @@ program.version(require('../package').version);
 
 // 路由:当输入命令init的时候执行这里
 program.command('init [targetDir...]').description('初始化').action(require('../lib/init'));
-program.command('created [name]').description('新建uct项目').action(require('../lib/created'));
+program.command('create [name]').description('新建uct项目').action(require('../lib/create'));
 program.command('run [type]').description('运行项目').action(require('../lib/run'));
 program.parse(process.argv);

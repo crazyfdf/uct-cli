@@ -14,12 +14,12 @@ uct -h
 - 创建页面
 ```
 <!-- 选择创建项目类型 -->
-uct created
+uct create
 <!-- 直接创建项目，默认创建uni-app脚手架项目 -->
-uct created [name]
+uct create [name]
 ```
 
 - 创建模板页面(type:form/list/details)
 ```
-uct plop createdPage [name] [type]
+uct-plop createPage [name] [type]
 ```

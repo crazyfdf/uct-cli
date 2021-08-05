@@ -1,12 +1,6 @@
 <template>
-  <uct-details :loading="loading">
-    <uct-nav slot="nav">
-      <view slot="center"
-            class="f16 f700">Details详情</view>
-    </uct-nav>
-    <view>
-      Details内容
-    </view>
+  <uct-details :loading="config.details.loading">
+    <view> Details内容 </view>
   </uct-details>
 </template>
 
@@ -14,12 +8,12 @@
 export default {
   data() {
     return {
-      loading: true,
+      config: require("./{{name}}.json"),
     };
   },
   mounted() {
     setTimeout(() => {
-      this.loading = false;
+      this.config.details.loading = false;
     }, 2000);
   },
 };

@@ -5,7 +5,7 @@
     "uct-plop": "./bin/uct-plop"
   },
   "preferGlobal": true,
-  "version": "0.0.55",
+  "version": "0.0.56",
   "description": "uct-cli",
   "keywords": [
     "uctoo"
