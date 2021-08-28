@@ -1,21 +1,16 @@
 <template>
   <view class="page-body">
     <uct-scroll
-      :tabs="config.scroll.tabs"
-      @success="init"
+      v-bind="config.scroll"
       v-model="config.scroll.tabIndex"
+      @success="init"
       @change="changeTabIndex"
-      :tabRight="config.scroll.tabRight"
     >
-      <view
-        v-for="(item, index) in config.scroll.tabs"
-        class="px40"
-        :key="index"
-        :slot="index"
-      >
+      <view v-for="(item, index) in config.scroll.tabs" class="px40" :key="index" :slot="index">
         <view>{{ index }}</view>
       </view>
     </uct-scroll>
+    <!-- 该注释用于添加组件，不可删除 -->
   </view>
 </template>
 
@@ -23,7 +18,7 @@
 export default {
   data() {
     return {
-      config: require("./{{name}}.json"),
+      config: require('./{{name}}.json'),
     };
   },
   methods: {

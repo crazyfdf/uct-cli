@@ -3,9 +3,11 @@
 const { Command } = require('commander');
 const program = new Command();
 program.version(require('../package').version);
-
 // 路由:当输入命令init的时候执行这里
 program.command('init [targetDir...]').description('初始化').action(require('../lib/init'));
 program.command('create [name]').description('新建uct项目').action(require('../lib/create'));
 program.command('run [type]').description('运行项目').action(require('../lib/run'));
+program.command('code [file]').description('vscode打开项目').action(require('../lib/code'));
+program.command('remove [name] [type]').description('运行项目').action(require('../lib/remove'));
+program.command('close [path]').description('关闭端口号项目').action(require('../lib/close'));
 program.parse(process.argv);

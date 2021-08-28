@@ -1,18 +1,2 @@
-<template>
-  <view class="{{title}}">
-      <{{title}} class="mt100" v-bind="item"></{{title}}>
-  </view>
-</template>
-
-<script>
-import item from './index.js';
-export default {
-  data() {
-    return {
-      item
-    };
-  },
-};
-</script>
-
-<style scoped lang="scss"></style>
+<{{title}} v-bind="config.{{configName}}"></{{title}}>
+<!-- 该注释用于添加组件，不可删除 -->

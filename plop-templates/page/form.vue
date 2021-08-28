@@ -1,11 +1,7 @@
 <template>
   <view class="page-body">
-    <uct-nav>
-      <view slot="center">{{name}}</view>
-    </uct-nav>
-    <uct-form :formData="config.form.formData"
-              :url="config.form.url"
-              @submit="submit"></uct-form>
+    <uct-form v-bind="config.form" @submit="submit"></uct-form>
+    <!-- 该注释用于添加组件，不可删除 -->
   </view>
 </template>
 
@@ -13,7 +9,7 @@
 export default {
   data() {
     return {
-      config: require("./{{name}}.json"),
+      config: require('./{{name}}.json'),
     };
   },
   methods: {

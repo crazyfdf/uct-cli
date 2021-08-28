@@ -7,18 +7,9 @@
   "preferGlobal": true,
   "version": "0.0.56",
   "description": "uct-cli",
-  "keywords": [
-    "uctoo"
-  ],
   "scripts": {
     "lerna": "lerna publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/crazyfdf/uct-cli.git"
-  },
-  "author": "huoling",
-  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
     "commander": "^8.0.0",
@@ -29,5 +20,15 @@
   },
   "devDependencies": {
     "lerna": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazyfdf/uct-cli.git"
+  },
+  "keywords": [
+    "uctoo",
+    "cli"
+  ],
+  "author": "huoling",
+  "license": "MIT"
 }

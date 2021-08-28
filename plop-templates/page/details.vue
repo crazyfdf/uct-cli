@@ -1,14 +1,15 @@
 <template>
-  <uct-details :loading="config.details.loading">
-    <view> Details内容 </view>
-  </uct-details>
+  <view class="page-body">
+    <uct-details v-bind="config.details"> </uct-details>
+    <!-- 该注释用于添加组件，不可删除 -->
+  </view>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      config: require("./{{name}}.json"),
+      config: require('./{{name}}.json'),
     };
   },
   mounted() {
