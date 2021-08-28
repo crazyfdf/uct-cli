@@ -5,7 +5,7 @@
     "uct-plop": "./bin/uct-plop"
   },
   "preferGlobal": true,
-  "version": "0.0.56",
+  "version": "0.0.1",
   "description": "uct-cli",
   "scripts": {
     "lerna": "lerna publish"
@@ -26,7 +26,7 @@
     "url": "https://github.com/crazyfdf/uct-cli.git"
   },
   "keywords": [
-    "uctoo",
+    "uct",
     "cli"
   ],
   "author": "huoling",
