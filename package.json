@@ -5,7 +5,7 @@
     "uct-plop": "./bin/uct-plop"
   },
   "preferGlobal": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "uct-cli",
   "scripts": {
     "lerna": "lerna publish"
